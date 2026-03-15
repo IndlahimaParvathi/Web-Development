@@ -1,5 +1,5 @@
-function onClickPraseIntChecker(){
+function onClickPraseFloattChecker(){
     debugger;
-    var result=parseInt(document.getElementById("txtValue").value);
+    var result=parseFloat(document.getElementById("txtValue").value);
     document.getElementById("pResult").innerHTML=result;
 }
