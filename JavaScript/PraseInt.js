@@ -1,5 +1,5 @@
-function onClickParseInt(){
+function onClickPraseIntChecker(){
     debugger;
-    var result=parseInt(document.getAnimations("txtValue").value);
+    var result=parseInt(document.getElementById("txtValue").value);
     document.getElementById("pResult").innerHTML=result;
 }
