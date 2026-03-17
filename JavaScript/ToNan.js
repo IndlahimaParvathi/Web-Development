@@ -1,6 +1,6 @@
 function onClickNaNChecker(){
     debugger;
-    DecimalNumber=Number(document.getElementById("txtDecimalNumber").value)
+    Number=Number(document.getElementById("txtDecimalNumber").value)
     NaN=Number(document.getElementById("txtNotaNumber").value)
     document.getElementById("pResult").innerHTML= DecimalNumber.toNaN(NaN);  
 
