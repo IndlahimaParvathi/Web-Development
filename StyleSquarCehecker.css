@@ -1,0 +1,14 @@
+.value{
+     width: 176px;
+    height: 19px;
+    margin-bottom: 6px;
+    border-radius: 7px;
+}
+.button{
+     margin: 4px;
+    border: 1px solid black;
+    background: aqua;
+    border-radius: 6px;
+    height: 24px;
+
+}
