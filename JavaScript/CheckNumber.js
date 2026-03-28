@@ -1,5 +1,5 @@
  function onClickNumber(){
-    debegger;
+    debugger;
     var number=parseInt(document.getElementById("txtNumber").value);
     if(Number>0){
         document.getElementById("pResult").innerHTML="The number is Positive.";
