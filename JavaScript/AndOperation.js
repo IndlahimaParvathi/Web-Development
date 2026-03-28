@@ -1,5 +1,5 @@
  function onClickAndOperation(){
-     if((Number>0) && (Number%2==0)){
-        document.getElementById("pResult").innerHTML="The number is Positive and even.";
-        console.log("The number is positive and even. ");
+     if((Number%3==0) && (Number%5==0)){
+        document.getElementById("pResult").innerHTML="The number is divisible by  3and 5.";
+        console.log("The number is divisible 3and 5. ");
  }
