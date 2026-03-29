@@ -14,4 +14,4 @@ document.getElementById("btnGenerate").addEventListener("click", function () {
 
 
 
- 
+//  document.getElementById("btnGenerate").addEventListener("click",onClickGenerateRandom);
