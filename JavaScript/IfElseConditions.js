@@ -1,13 +1,15 @@
 function onClickAdd(){
     debugger;
-    var number= number(document.getElementById("txtNumber").value)
-    if(number>0){
-         document.getElementById("result").innerHTML="The number is Positive.";
+    var number=Number(document.getElementById("txtNumber").value)
+    if(number%3== 0&& number%7==0){
+         document.getElementById("result").innerHTML="The number is divisible 3.";
     }
     else {
-         document.getElementById("result").innerHTML="The number is Negative or zero"
+         document.getElementById("result").innerHTML="The number is divisible 7.";
 
     }
 
     
 }
+
+
