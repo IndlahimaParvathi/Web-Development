@@ -58,7 +58,7 @@
             const radios = document.querySelectorAll('input[type="radio"]:checked');
             
             radios.forEach(radio => {
-                total += parseInt(radio.value);
+                total + parseInt(radio.value);
             });
             
             // let category = total >= 300000 ? 'Rich' : total >= 150000 ? 'Middle Class' : 'Poor';
