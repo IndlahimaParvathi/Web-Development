@@ -6,8 +6,8 @@ function onClickMinDigits() {
     var value3 = Math.random() * Math.pow(10, Digits);
     var value4 = Math.random() * Math.pow(10, Digits);
     var value5 = Math.random() * Math.pow(10, Digits);
-    var value5 = Math.random() * Math.pow(10, Digits);
-    var minDigits = Math.min(value1, value2, value3, value4, value5);
+    var value6 = Math.random() * Math.pow(10, Digits);
+    var minDigits = Math.min(value1, value2, value3, value4, value5, value6);
     document.getElementById("pResult").innerHTML = minDigits
 }
 
