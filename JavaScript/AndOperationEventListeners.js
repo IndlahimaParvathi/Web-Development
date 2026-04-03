@@ -1,0 +1,8 @@
+document.getElementById("btnNumber").addEventListener("click",function(){
+    debugger;
+     var Number= parseFloat(document.getElementById("txtNumber").value)
+     if((Number%3==0) && (Number%5==0)){
+        document.getElementById("pResult").innerHTML="The number is divisible by  3 and 5.";
+       console.log("The number is divisible by 3 and 5. ");
+     }
+ });
