@@ -5,7 +5,7 @@ document.getElementById("btnfinitechecker").addEventListener("click",function(){
 
     var result=isFinite(divisionResult);
 
-    document.getElementById("Result").innerHTML= "Finite/" + result;
+    document.getElementById("result").innerHTML= "Finite/" + result;
 
 });
     
