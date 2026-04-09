@@ -7,6 +7,7 @@ document.getElementById("btnDigits").addEventListener("click",function(){
     var value4 = Math.random() * Math.pow(10, Digits);
     var value5 = Math.random() * Math.pow(10, Digits);
     var value6 = Math.random() * Math.pow(10, Digits);
+     var value6 = Math.random() * Math.pow(10, Digits);
     var maxDigits = Math.max(value1, value2, value3, value4, value5, value6);
     document.getElementById("pResult").innerHTML =Math.trunc(maxDigits)
 });
